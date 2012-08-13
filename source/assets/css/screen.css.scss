@@ -1,0 +1,64 @@
+/* /////////////////////////////////////////////////////
+
+PROJECT TITLE
+jon@capturethecastle.net @ Capture The Castle
+
+///////////////////////////////////////////////////// */
+
+
+/* Compass Imports
+--------------------------------------------- */
+
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+@import "compass/css3/border-radius";
+
+
+
+/* Variables
+--------------------------------------------- */
+
+$base-color: #000;
+$highlight-color: #ea2427;
+
+$body-font: Helvetica, Arial, sans-serif;
+
+
+
+/* Sprites
+--------------------------------------------- */
+
+// $misc-sprite-dimensions : true;
+// $misc-spacing : 2px;
+// @import "misc/*.png";
+
+
+
+/* Imports
+--------------------------------------------- */
+
+@import "partials/normalize";
+@import "partials/base";
+@import "partials/grid";
+@import "partials/utils";
+@import "partials/modules";
+
+
+
+/* Global
+--------------------------------------------- */
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+/* Home page
+--------------------------------------------- */
+
+body.home {}
+
