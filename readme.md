@@ -1,5 +1,15 @@
-# Middleman 3.0 template using HTML5 boilerplate and HAML
+# Middleman-Haml
 
-Modified slightly from dannyprose's[https://github.com/dannyprose/Middleman-HTML5BP-HAML] awesome middleman template for my own needs.
+A Middleman 3.0 template using HTML5 boilerplate HAML, SCSS, and CoffeeScript
+ready to deploe to heroku.
 
-The template also includes a modified version of the scss boilerplate from mattfordham[https://github.com/mattfordham/SCSS-Boilerplate]
+### Installation ###
+
+Clone **middleman-haml** into `~/.middleman`. You will need to create this directory if it doesn't exist.
+```$ git clone git@github.com:jonlunsford/middleman-haml.git ~/.middleman/middleman-haml```
+
+Initialize middleman on a new or existing folder `$ middleman init path_to_project --template=middleman-haml`
+
+
+For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/)
+

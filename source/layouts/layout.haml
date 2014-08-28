@@ -11,19 +11,19 @@
     %title= data.page.title || "SET YOUR SITE NAME"
     %meta{:content => data.page.description || "SET YOUR SITE DESCRIPTION", :name => "description"}
     %meta{:content => "width=device-width", :name => "viewport"}
-    = javascript_include_tag "libs/modernizr-2.5.3.min"
-    = stylesheet_link_tag "screen"
+    = javascript_include_tag "libs/modernizr-2.8.3"
+    = stylesheet_link_tag "main"
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
     %header
     %div{:role => "main", :class => "main"}= yield
     %footer
-    
-    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"}
     :javascript
-      window.jQuery || document.write('<script src="library/js/vendor/jquery-1.7.1.min.js"><\/script>')
+      window.jQuery || document.write('<script src="library/js/vendor/jquery-2.1.1.js"><\/script>')
     = javascript_include_tag "main"
-    
+
     :javascript
       window.jQuery || document.write('<\/script>')
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
