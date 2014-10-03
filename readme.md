@@ -1,7 +1,7 @@
 # Middleman-Haml
 
 A Middleman 3.0 template using HTML5 boilerplate HAML, SCSS, and CoffeeScript
-ready to deploe to heroku.
+ready to deploy to heroku.
 
 ### Installation ###
 
