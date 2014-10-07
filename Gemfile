@@ -6,3 +6,4 @@ gem "middleman-livereload"
 gem "susy"
 gem "addressable"
 gem "rake"
+gem 'puma',      '~> 2.7'

@@ -93,6 +93,8 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.3)
       activesupport (>= 3.1)
+    puma (2.9.0)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
     rack-livereload (0.3.15)
       rack
@@ -134,5 +136,6 @@ DEPENDENCIES
   middleman
   middleman-favicon-maker
   middleman-livereload
+  puma (~> 2.7)
   rake
   susy
